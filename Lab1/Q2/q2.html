@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <meta lang="en">
+    <head>
+        <title>Q2</title>
+    </head>
+    <body>
+        <h1>Feedback page</h1><br>
+        <form>
+        <div>
+            Name     :<input type="text"><br><br>
+            Address  :<input type="text"><br><br>
+            Mail ID  :<input type="text"><br><br>
+            Student / Potential Student:
+           <input type="radio" name="sorp" checked> Student
+           <input type="radio" name="sorp"> Potential Student<br>
+        </div>
+        <br><br>
+        <div>
+            <h4>What did you like the most ?</h4>
+            <input type="checkbox"> Students<br>
+            <input type="checkbox">Location<br>
+            <input type="checkbox">Campus<br>
+            <input type="checkbox">Atmosphere<br>
+            <input type="checkbox">Dorm<br>
+            <input type="checkbox">Rooms<br>
+            <input type="checkbox">Sports<br>
+        </div>
+        <br><br>
+        <div>
+            <h4>How did you become interested in the university?</h4>
+            <input type="radio" name="op">Friends<br>
+            <input type="radio" name="op">Television<br>
+            <input type="radio" name="op">Internet<br>
+            <input type="radio" name="op">Other<br>
+        </div>
+        <br><br>
+        <div>
+            <h4>Remarks (if any):</h4>
+            <textarea name="jk" rows="5" cols="60"></textarea><br>
+        </div>
+        <br><br>
+        Submit :<input type="submit" value="Submit" onclick="newFunc()"><br><br>
+        Reset  :<input type="reset" value="Reset">        
+    </form>
+    <script>
+        function newFunc() {
+          alert("Successfully submitted\nThank you.");
+        }
+    </script>
+    </body>
+</html>
