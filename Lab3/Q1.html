@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q1</title>
+</head>
+<style>
+    body{
+        margin-top: 5cm;
+        text-align: center;
+    }
+</style>
+<script>
+    function increaseFont()
+  		{
+  			var size = x.style.fontSize
+  			x.innerHTML = "TEXT GROWING"
+  			x.style.color="#FF0000"
+  			if(x.style.fontSize == "50px")
+  			{
+  				clearInterval(inc)
+  				inc = setInterval(decreaseFont,100);
+  			}
+  			size = size.substring(0,2)
+  			x.style.fontSize = parseInt(size) + 1 + "px"
+  			console.log(x.style.fontSize)
+  		}
+  	function decreaseFont()
+  		{
+  			var size = x.style.fontSize
+  			x.innerHTML = "TEXT SHRINKING"
+  			x.style.color="#0000FF"
+  			if(x.style.fontSize == "5px")
+            {
+  				clearInterval(inc)
+                inc = setInterval(increaseFont,100);
+            }
+  			size = size.substring(0,2)
+  			x.style.fontSize = parseInt(size) - 1 + "px"
+  			console.log(x.style.fontSize)
+  		}
+</script>
+<body>
+    <p id="text_change" style="font-size: 16">
+    </p>
+    <script type="text/javascript">
+        var x = document.getElementById('text_change')
+        var inc = setInterval(increaseFont,100);
+    </script>   
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>Q3</title>
+</head>
+<script type="text/javascript">
+	 var str;
+	 str=window.prompt("Enter a phone number");
+	 var k=str.split("-");
+	 var f=k[0].split("(");
+	 var h=f[1].split(")");	 
+	 document.write("The address code = "+h[0]);
+     document.write("<br>")
+	 document.write("The phone number = "+h[1]+k[1]);
+</script>
+</html>

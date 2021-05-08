@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q5</title>
+</head>
+<script>
+function sac()
+{
+    var nos = document.getElementById('num').value;
+    document.write("<center>");
+    document.writeln("<table>");
+    document.write("<table border='5px solid black'>");
+    document.write("<tr><th>Number</th><th>Squres</th><th>Cube</th></tr>");
+    for(var i=1; i<(nos+1)/10; i++)
+    {
+        document.write("<tr><td>"+i+"</td><td>"+i*i+"</td><td>"+i*i*i+"</td></tr>")
+    }
+    document.write("</table><br>")
+    document.write("<button onclick='location.reload()'>Try Again</button>")
+    document.write("</center>");
+}
+</script>
+<body>
+    <center>
+    <h1>Squares and Cubes</h1><br><br>
+    <h3>Enter a number</h3>
+    <input type="number" id='num'><br><br>
+    <button onclick="sac()">Display</button>
+    </center>
+</body>
+</html>

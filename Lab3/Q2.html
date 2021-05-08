@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>Q2</title>
+</head>
+<script type="text/javascript">
+function answer(){
+	var str = document.getElementById('inpt').value;
+	var wrd = str.split(" ");
+	var txt = document.getElementById('txt');
+	for(var i=0; i<wrd.length; i++)
+	{
+		txt.value+=printLatinWord(wrd[i])+"  ";
+	}
+	txt.value+="\n";
+}
+function printLatinWord(str)
+	{
+		var l=str.length;
+		var p1=str.substring(1,l-1);
+		var p2=str.charAt(l-1);
+		var p3=str.charAt(0);
+		return p1+p2+p3+"ay";
+	}
+function reset()
+{
+	document.getElementById('txt').value=" ";
+}
+</script>
+<body>
+    <div>
+        Enter string : <input type="text" id="inpt"><br><br>
+        <button onclick="answer()">Translate</button>
+		<button onclick="reset()">Reset</button><br><br><br>
+        Pig Latin Translation :<br>
+        <textarea id="txt" rows="15" cols="75"></textarea>
+		
+    </div>
+</body>
+</html>
