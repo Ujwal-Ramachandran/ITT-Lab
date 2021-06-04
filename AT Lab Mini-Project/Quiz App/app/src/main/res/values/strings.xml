@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">LetsQuiz</string>
+    <string name='question1'>The Mariana Trench is located in which ocean?</string>
+    <string name='question1_A'>Atlantic</string>
+    <string name="question1_B">Indian</string>
+    <string name="question1_C">Pacific</string>
+    <string name="question1_D">Arctic</string>
+    <string name="answer1">Pacific</string>
+
+    <string name='question2'>In which decade did we land on the moon?</string>
+    <string name='question2_A'>1950–60</string>
+    <string name="question2_B">1960–70</string>
+    <string name="question2_C">1970–80</string>
+    <string name="question2_D">1980–90</string>
+    <string name="answer2">1960–70</string>
+
+    <string name='question3'>The City Kyoto can be found in which of the following countries?</string>
+    <string name='question3_A'>China</string>
+    <string name="question3_B">South Korea</string>
+    <string name="question3_C">Japan</string>
+    <string name="question3_D">New Zealand</string>
+    <string name="answer3">Japan</string>
+
+    <string name='question4'>Jair Bolsonaro is the president of which country?</string>
+    <string name='question4_A'>Brazil</string>
+    <string name="question4_B">Argentina</string>
+    <string name="question4_C">Peru</string>
+    <string name="question4_D">Uruguay</string>
+    <string name="answer4">Brazil</string>
+
+    <string name='question5'>Who is the present World Chess Champion</string>
+    <string name='question5_A'>Vishwanathan Anand</string>
+    <string name="question5_B">Magnus Carlsen</string>
+    <string name="question5_C">Gary Kasparov</string>
+    <string name="question5_D">Bobby Fischer</string>
+    <string name="answer5">Magnus Carlsen</string>
+
+    <string name='question6'>The top goalscorer in Premier-League history is</string>
+    <string name='question6_A'>Wayne Rooney</string>
+    <string name="question6_B">Thierry Henry</string>
+    <string name="question6_C">Alan Shearer</string>
+    <string name="question6_D">Didier Drogba</string>
+    <string name="answer6">Alan Shearer</string>
+
+    <string name='question8'>This legendary albums cover art depicts the four members of the band crossing a street to their recording studio. Name the album</string>
+    <string name='question8_A'>Abbey Road</string>
+    <string name="question8_B">Kashmir</string>
+    <string name="question8_C">Dark Side of the Moon</string>
+    <string name="question8_D">Another Brick in the wall</string>
+    <string name="answer8">Abbey Road</string>
+
+    <string name='question7'>Which film recently made history by being the first non-English film to win an Oscar for Best Picture</string>
+    <string name='question7_A'>Another Round</string>
+    <string name="question7_B">ROMA</string>
+    <string name="question7_C">Parasite</string>
+    <string name="question7_D">Minanri</string>
+    <string name="answer7">Parasite</string>
+
+    <string name='question9'>Who is the author of 1984</string>
+    <string name='question9_A'>Jane Austen</string>
+    <string name="question9_B">George Orwell</string>
+    <string name="question9_C">Charles Dickens</string>
+    <string name="question9_D">Aldous Huxley</string>
+    <string name="answer9">George Orwell</string>
+
+    <string name='question10'>What was the first mammal to be succesfully cloned?</string>
+    <string name='question10_A'>Sheep</string>
+    <string name="question10_B">Cow</string>
+    <string name="question10_C">Pig</string>
+    <string name="question10_D">Mouse</string>
+    <string name="answer10">Sheep</string>
+
+    <string name='question11'>What is the colour of Polar bear skin ?</string>
+    <string name='question11_A'>Black</string>
+    <string name="question11_B">Brown</string>
+    <string name="question11_C">Grey</string>
+    <string name="question11_D">White</string>
+    <string name="answer11">Black</string>
+
+    <string name='question12'>Species of animal with longest lifespan ?</string>
+    <string name='question12_A'>Tortoise</string>
+    <string name="question12_B">Whale</string>
+    <string name="question12_C">Shark</string>
+    <string name="question12_D">Jellyfish</string>
+    <string name="answer12">Jellyfish</string>
+
+    <string name='question13'>Time taken by the 2nd biggest moon in solar system to rotate around its planet is?</string>
+    <string name='question13_A'>14 days</string>
+    <string name="question13_B">15 days</string>
+    <string name="question13_C">16 days</string>
+    <string name="question13_D">21 days</string>
+    <string name="answer13">16 days</string>
+
+    <string name='question14'>The man given the moniker "The Iron Man of India" is?</string>
+    <string name='question14_A'>Narendra Modi</string>
+    <string name="question14_B">Shubhash Chandra Bose</string>
+    <string name="question14_C">Sardar Vallabhai Patel</string>
+    <string name="question14_D">Lal Bahadur Shastri</string>
+    <string name="answer14">Sardar Vallabhai Patel</string>
+
+    <string name='question15'>Hottest planet in the solar system is?</string>
+    <string name='question15_A'>Mercury</string>
+    <string name="question15_B">Jupiter</string>
+    <string name="question15_C">Venus</string>
+    <string name="question15_D">Mars</string>
+    <string name="answer15">Venus</string>
+
+    <string name='question16'>Select the largest animal from the following</string>
+    <string name='question16_A'>Great White Shark</string>
+    <string name="question16_B">Elephant</string>
+    <string name="question16_C">Giant Squid</string>
+    <string name="question16_D">Orca</string>
+    <string name="answer16">Orca</string>
+
+    <string name='question17'>Most expensive residential real estate in the world is?</string>
+    <string name='question17_A'>Buckingham Palace</string>
+    <string name="question17_B">Villa Leopold</string>
+    <string name="question17_C">Antilla</string>
+    <string name="question17_D">Four Fairfield Pond</string>
+    <string name="answer17">Antilla</string>
+
+    <string name='question18'>Who is the current Secretary General of the United Nations General Council?</string>
+    <string name='question18_A'>Kofi Anan</string>
+    <string name="question18_B">Ban ki Moon</string>
+    <string name="question18_C">Filipo Grandi</string>
+    <string name="question18_D">Antonio Guterres</string>
+    <string name="answer18">Antonio Guterres</string>
+
+    <string name='question19'>Which is the third largest nation by land area?</string>
+    <string name='question19_A'>Canada</string>
+    <string name="question19_B">Brazil</string>
+    <string name="question19_C">Australia</string>
+    <string name="question19_D">China</string>
+    <string name="answer19">China</string>
+
+    <string name='question20'>Select the odd one out</string>
+    <string name='question20_A'>Mario</string>
+    <string name="question20_B">Pikachu</string>
+    <string name="question20_C">Sonic</string>
+    <string name="question20_D">Donkey Kong</string>
+    <string name="answer20">Sonic</string>
+
+    <string name="score">Score 0/7</string>
+    <string name="question_number1">1/7 Questions</string>
+    <string name="correct_answer">Correct Answer</string>
+    <string name="selected_option">Selected Option</string>
+    <string name="lets_quiz">Lets Quiz</string>
+</resources>
